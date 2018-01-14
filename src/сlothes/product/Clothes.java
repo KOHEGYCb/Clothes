@@ -13,7 +13,7 @@ public class Clothes {
     private String style;
     
     public Clothes(){
-        System.out.print("Write manufacturer: ");
+        System.out.print("Clothes creater: \nWrite manufacturer: ");
         manufacturer = new Scanner(System.in).nextLine();
         System.out.print("Write price: ");
         price = new Scanner(System.in).nextFloat();

@@ -12,7 +12,7 @@ public class Pants extends Clothes {
 
     public Pants() {
         super();
-        System.out.print("Write the sleeve length: ");
+        System.out.print("Write has pants have a pinser (Y/N): ");
         switch (new Scanner(System.in).nextLine()) {
             case "Y":
                 this.isPinser = true;
